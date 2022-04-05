@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,800;1,400&display=swap");
+
+/* 29abe2 a - 669900 v*/
+
+/**** GLOBAL ****/
+
+body{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+    height: 100vh; 
+	margin: 0;
+    color: rgb(0,0,0);
+	background-color: rgb(244, 244, 244);
+}
+
+.container{
+	width: 100%;
+	margin: auto;
+}
+
+.container50{
+	width: 60%;
+	margin: auto;
+}
+
+@media screen and (max-width: 600px), screen and (orientation: portrait){
+	.container{
+		width:95% !important;
+	}
+
+    main{
+        width: 95%;
+    }
+}
+
+a{text-decoration: none;
+color: #669900;}
+
+
+h1{
+    text-align: center;
+    font-size: 1.8em;
+    margin: 50px 0 20px 0;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.5em;
+    margin:35px 0 25px 0;
+}
+
+p{
+    margin: 25px 0 25px 0;
+    line-height: 150%;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+/*--- HEADER ---*/
+header{
+	background-color: white;
+	box-shadow: 0px 3px 3px rgb(0 0 0 / 1%);
+	padding: 15px 0 0 0;
+}
+
+@media screen and (max-width: 600px), screen and (orientation: portrait){
+	header{text-align: center;}
+}
+
+@media screen and (orientation: portrait){
+    #logo {font-size: 8em !important; margin-bottom:20px !important;}
+}
+
+#logo {
+	font-weight: 800;
+    text-align: center;
+	font-size: 3.5em;
+    margin: 10px 0 25px 0;
+}
+
+#logo a:link , #logo a:visited{
+	text-decoration: none;
+	color: #669900;;
+}
+
+/*ESTILO DEL MENÚ*/
+
+#mainMenu {
+    text-align: center;
+    background-color: #669900;
+}
+
+#mainMenu ul{
+	list-style: none;
+	font-weight: bold;
+	font-size: 1.1em; 
+	margin: 0;
+    padding: 0;
+}
+
+#mainMenu li{
+	padding: 30px 25px;
+}
+
+#mainMenu li:hover, #mainMenu li.selected{
+	background-color: #7cbb00;
+}
+
+
+
+@media screen and (min-width: 600px) and (orientation: landscape){
+	#mainMenu li{
+		display: inline-block; 
+		padding: 20px 25px; 
+	}
+}
+
+
+#mainMenu li a{
+	text-decoration: none; 
+	color: #fff;
+    padding: 20px 25px; 
+}
+
+
+/************************* MAIN *************************/
+main{
+	padding:0;
+    width: 70%;
+    margin: auto;
+}
+
+
+/* NOTICIAS */
+
+.card img{width:100%;}
+.card p.date{
+    font-size:1em; 
+    margin: 10px 0;   
+}
+.card p{font-size: 1em;}
+.card h3{margin: 10px 0 15px 0;}
+.card a{
+    color:#669900 !important;
+    font-weight: 800;
+}
+
+
+.flex-row-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: top;
+    justify-content: center;
+    gap: 40px;
+    margin-top:15px;
+    margin-bottom: 40px;
+}
+.flex-row-container > .flex-row-item {
+    flex: 1 1 0;      /*grow | shrink | basis */
+    min-height: 400px;
+}
+
+.flex-row-item {}
+
+@media screen and (max-width: 600px), screen and (orientation: portrait){
+    #nav li {
+      flex: 1 1 100%;
+      padding: 5px;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+    }
+
+    .flex-row-container > .flex-row-item {
+        flex: 1 1 100%;      
+    }
+
+    .flex-row-container {
+        gap: 40px;
+        margin-top:15px;
+        margin-bottom: 40px;
+    }
+}
+
+
+.divFocus {
+    background-color: rgb(102 153 0 / 14%);;
+    text-align: center;
+}
+.divFocus h2{margin: 0 0 10px 0;}
+
+
+/******************* FOOTER ***********************/
+footer{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 25px 0 10px 0;
+    text-align: center;
+}
+
+footer p{font-size:0.8em; margin:10px; text-align: center;}
+
+footer ul{
+	list-style: none;
+	font-weight: 300;
+	font-size: 0.8em; 
+	padding: 0;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+footer li{
+    display: inline-block; 
+    padding-right: 25px; 
+}
+
+footer #legalMenu ul{
+    list-style-type: circle !important;
+}
+
+footer #legalMenu li{
+    padding-right:15px;
+}
+
+footer li{
+	padding: 3px 0;
+}
+
+footer li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+@media screen and (max-width: 600px), screen and (orientation: portrait){
+	
+    footer{text-align: center;}
+
+    footer #legalMenu li{display: block;}
+
+    footer .container{width: 65% !important;}
+
+    footer ul, footer p{font-size:0.9em; margin-bottom:20px;}
+}
+
+
+/******************* AUXILIARES ***********************/
+.padding-sm{padding: 40px;}
+.marginB-xs{margin-bottom:80px;}
+.textLeft{text-align: left !important;}
+
+
+/************* SINTOMAS *****************/
+
+.flex-row-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: top;
+    justify-content: center;
+    gap: 40px;
+    margin-top:15px;
+    margin-bottom: 40px;
+}
+.flex-row-container-2 > .flex-row-item-2 {
+    flex: 1 1 25%;      /*grow | shrink | basis */
+}
+
+.flex-row-item-2 {
+    background-color: #fff;
+    padding:10px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 600px), screen and (orientation: portrait){
+
+    .flex-row-container-2 > .flex-row-item-2 {
+        flex: 1 1 100%;      
+    }
+
+    .flex-row-container-2 {
+        gap: 40px;
+        margin-top:15px;
+        margin-bottom: 40px;
+    }
+}
+
+/************* VIDEOS *****************/
+
+.flex-row-container-3 {
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-top:15px;
+    margin-bottom: 40px;
+    background-color: #fff;
+}
+
+.flex-row-container-3 > .flex-row-item-3 {
+    flex: auto;      /*grow | shrink | basis */
+    /*min-height:295px;*/
+}
+
+.flex-row-item-3 {
+    background-color: #fff;
+    padding:10px;
+    
+}
+
+.flex-row-item-3 ul{padding-inline-start: 20px !important;}
+.flex-row-item-3 li{margin-bottom:10px;}
+
+@media screen and (max-width: 600px), screen and (orientation: portrait){
+
+    .flex-row-container-3 > .flex-row-item-3 {
+        flex: 1 1 100%;      
+    }
+}
+
+/************* COP26 *****************/
+
+.textJusfity p, .textJusfity li{text-align:justify !important;}
+
+blockquote{
+    margin: 0 0 20px 0;
+    font-size: 0.9em;
+    background-color: rgb(255, 255, 255);
+    border-left:4px solid rgb(189, 55, 0);
+    padding: 10px 15px 20px 15px;
+}
+
+ol li{font-size:1em; margin-bottom: 20px;}
+
+.flex-row-container-4 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: top;
+    justify-content: center;
+    gap: 40px;
+    margin-top:15px;
+    margin-bottom: 40px;
+}
+
+.flex-row-container-4 > .flex-row-item-4 {
+    flex: 1 1 40%;      /*grow | shrink | basis */
+    min-height: 300px;
+}
+
+.flex-row-container-4 p{font-size:1em !important;}
+
+@media screen and (max-width: 600px), screen and (orientation: portrait){
+
+    .flex-row-container-4 > .flex-row-item-4 {
+        flex: 1 1 100%;      
+    }
+}
+
+
+.camiseta{
+    width: 200px;
+    border: 1px solid #d7d7d7;
+}
+
+.padding-30{
+    padding: 0 30px !important;
+}
+.padding-20{
+    padding: 20px !important;
+}
+
