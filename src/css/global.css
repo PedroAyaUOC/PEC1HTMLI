@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,800;1,400&display=swap");
-
-/* 29abe2 a - 669900 v*/
+@import url('../../node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css');
 
 /**** GLOBAL ****/
 
@@ -29,7 +28,7 @@ body{
 	}
 
     main{
-        width: 95%;
+        width: 95% !important;
     }
 }
 
@@ -160,7 +159,6 @@ main{
     min-height: 400px;
 }
 
-.flex-row-item {}
 
 @media screen and (max-width: 600px), screen and (orientation: portrait){
     #nav li {
