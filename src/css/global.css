@@ -110,6 +110,11 @@ header{
 	background-color: #7cbb00;
 }
 
+#mainMenu li a{
+	text-decoration: none; 
+	color: #fff;
+    padding: 20px 25px; 
+}
 
 
 @media screen and (min-width: 600px) and (orientation: landscape){
@@ -119,15 +124,14 @@ header{
 	}
 
     #mainMenu li a{
-        font-size: 1.8em; 
+        display: inline-block; 
     }
 }
 
-
-#mainMenu li a{
-	text-decoration: none; 
-	color: #fff;
-    padding: 20px 25px; 
+@media screen and (max-width: 600px), screen and (orientation: portrait){
+    #mainMenu li a{
+        font-size: 1.5em; 
+    }
 }
 
 
