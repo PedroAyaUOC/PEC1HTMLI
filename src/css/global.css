@@ -64,10 +64,6 @@ header{
 
 @media screen and (max-width: 600px), screen and (orientation: portrait){
 	header{text-align: center;}
-
-    h1{
-        font-size: 2em !important;
-    }
     
 }
 
@@ -110,11 +106,6 @@ header{
 	background-color: #7cbb00;
 }
 
-#mainMenu li a{
-	text-decoration: none; 
-	color: #fff;
-    padding: 20px 25px; 
-}
 
 
 @media screen and (min-width: 600px) and (orientation: landscape){
@@ -122,16 +113,13 @@ header{
 		display: inline-block; 
 		padding: 20px 25px; 
 	}
-
-    #mainMenu li a{
-        display: inline-block; 
-    }
 }
 
-@media screen and (max-width: 600px), screen and (orientation: portrait){
-    #mainMenu li a{
-        font-size: 1.5em; 
-    }
+
+#mainMenu li a{
+	text-decoration: none; 
+	color: #fff;
+    padding: 20px 25px; 
 }
 
 
@@ -324,7 +312,7 @@ footer li a{
 @media screen and (max-width: 600px), screen and (orientation: portrait){
 
     .flex-row-container-3 > .flex-row-item-3 {
-        flex: 1 1 100%;      
+        /*flex: 1 1 100%;    */
     }
 }
 

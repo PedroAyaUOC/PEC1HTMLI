@@ -6039,10 +6039,6 @@ header {
   header {
     text-align: center;
   }
-
-  h1 {
-    font-size: 2em !important;
-  }
 }
 
 @media screen and (orientation: portrait) {
@@ -6085,26 +6081,17 @@ header {
   background-color: #7cbb00;
 }
 
-#mainMenu li a {
-  color: #fff;
-  padding: 20px 25px;
-  text-decoration: none;
-}
-
 @media screen and (min-width: 600px) and (orientation: landscape) {
   #mainMenu li {
     padding: 20px 25px;
-  }
-
-  #mainMenu li, #mainMenu li a {
     display: inline-block;
   }
 }
 
-@media screen and (max-width: 600px), screen and (orientation: portrait) {
-  #mainMenu li a {
-    font-size: 1.5em;
-  }
+#mainMenu li a {
+  color: #fff;
+  padding: 20px 25px;
+  text-decoration: none;
 }
 
 main {
@@ -6310,12 +6297,6 @@ footer li a {
 
 .flex-row-item-3 li {
   margin-bottom: 10px;
-}
-
-@media screen and (max-width: 600px), screen and (orientation: portrait) {
-  .flex-row-container-3 > .flex-row-item-3 {
-    flex: 100%;
-  }
 }
 
 .textJusfity li, .textJusfity p {
