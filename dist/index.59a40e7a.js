@@ -514,7 +514,7 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"8lRBv":[function(require,module,exports) {
-const name = 'world';
+let text = "Bienvenido a Top cómicos";
 console.log(`Hello ${name}`);
 
 },{}]},["iV45c","8lRBv"], "8lRBv", "parcelRequire3c64")

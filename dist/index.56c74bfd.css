@@ -5994,7 +5994,11 @@ body {
 }
 
 @media screen and (max-width: 600px), screen and (orientation: portrait) {
-  .container, main {
+  .container {
+    width: 90% !important;
+  }
+
+  main {
     width: 95% !important;
   }
 }
@@ -6034,6 +6038,10 @@ header {
 @media screen and (max-width: 600px), screen and (orientation: portrait) {
   header {
     text-align: center;
+  }
+
+  h1 {
+    font-size: 2em !important;
   }
 }
 

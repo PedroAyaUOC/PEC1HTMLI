@@ -24,7 +24,7 @@ body{
 
 @media screen and (max-width: 600px), screen and (orientation: portrait){
 	.container{
-		width:95% !important;
+		width:90% !important;
 	}
 
     main{
@@ -64,6 +64,11 @@ header{
 
 @media screen and (max-width: 600px), screen and (orientation: portrait){
 	header{text-align: center;}
+
+    h1{
+        font-size: 2em !important;
+    }
+    
 }
 
 @media screen and (orientation: portrait){
