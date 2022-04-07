@@ -117,6 +117,10 @@ header{
 		display: inline-block; 
 		padding: 20px 25px; 
 	}
+
+    #mainMenu li a{
+        font-size: 1.8em; 
+    }
 }
 
 
