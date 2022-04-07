@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,800;1,400&display=swap");
-@import url('../../node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css');
+/*@import url('../../node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css');*/
 
 /**** GLOBAL ****/
 
@@ -131,7 +131,7 @@ main{
 }
 
 
-/* NOTICIAS */
+/* PORTADA */
 
 .card img{width:100%;}
 .card p.date{
@@ -212,16 +212,9 @@ footer li{
     padding-right: 25px; 
 }
 
-footer #legalMenu ul{
-    list-style-type: circle !important;
-}
-
-footer #legalMenu li{
-    padding-right:15px;
-}
 
 footer li{
-	padding: 3px 0;
+	padding: 3px 5px;
 }
 
 footer li a{
@@ -249,7 +242,7 @@ footer li a{
 .textLeft{text-align: left !important;}
 
 
-/************* SINTOMAS *****************/
+/************* COLUMNAS ***************/
 
 .flex-row-container-2 {
     display: flex;
@@ -283,7 +276,7 @@ footer li a{
     }
 }
 
-/************* VIDEOS *****************/
+/************* COLUMNAS PARTIDAS *****************/
 
 .flex-row-container-3 {
     display: flex;
@@ -309,14 +302,22 @@ footer li a{
 .flex-row-item-3 ul{padding-inline-start: 20px !important;}
 .flex-row-item-3 li{margin-bottom:10px;}
 
+#fotoComico{width: 200px;}
+
 @media screen and (max-width: 600px), screen and (orientation: portrait){
 
     .flex-row-container-3 > .flex-row-item-3 {
-        /*flex: 1 1 100%;    */
+        flex: 1 1 100%;    
     }
+
+    .flex-row-container-3 {
+        flex-wrap: wrap;  
+    }
+
+    #fotoComico{width: 100%;}
 }
 
-/************* COP26 *****************/
+/************* PRESENTACIÓN *****************/
 
 .textJusfity p, .textJusfity li{text-align:justify !important;}
 

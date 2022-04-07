@@ -1,2 +1,3 @@
+
 let text = "Bienvenido a Top cómicos";
-console.log(`Mensaje: ${name}`);
+console.log(`Mensaje: ${text}`);
