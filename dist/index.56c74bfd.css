@@ -34,8 +34,8 @@ a {
 }
 
 h1 {
-  margin: 50px 0 20px;
-  font-size: 1.8em;
+  margin: 100px 0 50px;
+  font-size: 1.8rem;
 }
 
 h1, h2 {
@@ -44,13 +44,13 @@ h1, h2 {
 
 h2 {
   margin: 35px 0 25px;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 p {
   text-align: justify;
   margin: 25px 0;
-  font-size: 1.1em;
+  font-size: 1.1rem;
   line-height: 150%;
 }
 
@@ -69,14 +69,14 @@ header {
 @media screen and (orientation: portrait) {
   #logo {
     margin-bottom: 20px !important;
-    font-size: 8em !important;
+    font-size: 8rem !important;
   }
 }
 
 #logo {
   text-align: center;
   margin: 10px 0 25px;
-  font-size: 3.5em;
+  font-size: 3.5rem;
   font-weight: 800;
 }
 
@@ -93,7 +93,7 @@ header {
 #mainMenu ul {
   margin: 0;
   padding: 0;
-  font-size: 1.1em;
+  font-size: 1.1rem;
   font-weight: 700;
   list-style: none;
 }
@@ -134,7 +134,7 @@ main {
 }
 
 .card p, .card p.date {
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .card h3 {
@@ -200,14 +200,14 @@ footer, footer p {
 
 footer p {
   margin: 10px;
-  font-size: .8em;
+  font-size: .8rem;
 }
 
 footer ul {
   color: #fff;
   margin-bottom: 15px;
   padding: 0;
-  font-size: .8em;
+  font-size: .8rem;
   font-weight: 300;
   list-style: none;
 }
@@ -237,7 +237,7 @@ footer li a {
 
   footer p, footer ul {
     margin-bottom: 20px;
-    font-size: .9em;
+    font-size: .9rem;
   }
 }
 
@@ -339,12 +339,12 @@ blockquote {
   border-left: 4px solid #bd3700;
   margin: 0 0 20px;
   padding: 10px 15px 20px;
-  font-size: .9em;
+  font-size: .9rem;
 }
 
 ol li {
   margin-bottom: 20px;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .flex-row-container-4 {
@@ -363,7 +363,7 @@ ol li {
 }
 
 .flex-row-container-4 p {
-  font-size: 1em !important;
+  font-size: 1rem !important;
 }
 
 @media screen and (max-width: 600px), screen and (orientation: portrait) {
