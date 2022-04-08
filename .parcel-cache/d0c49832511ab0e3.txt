@@ -5548,7 +5548,7 @@
 83/home/usuario/Escritorio/HTMLI/PEC1/node_modules/domutils/lib/manipulation.d.ts.map1649178839166246678 0
 72/home/usuario/Escritorio/HTMLI/PEC1/node_modules/balanced-match/index.js1649179844212688700 0
 110/home/usuario/Escritorio/HTMLI/PEC1/node_modules/@fortawesome/fontawesome-free/svgs/solid/tent-arrows-down.svg1649181974626204244 0
-54/home/usuario/Escritorio/HTMLI/PEC1/src/css/global.css1649394639153208655 0
+54/home/usuario/Escritorio/HTMLI/PEC1/src/css/global.css1649394923158859137 0
 72/home/usuario/Escritorio/HTMLI/PEC1/node_modules/resolve/test/precedence1649179846052533423 1
 81/home/usuario/Escritorio/HTMLI/PEC1/node_modules/cosmiconfig/dist/getDirectory.js1649178838522038762 0
 101/home/usuario/Escritorio/HTMLI/PEC1/node_modules/@fortawesome/fontawesome-free/svgs/solid/mug-hot.svg1649181971842220024 0
