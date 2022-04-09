@@ -6074,14 +6074,17 @@ header {
   background-color: #7cbb00;
 }
 
-@media screen and (min-width: 600px) and (orientation: landscape) {
-  #mainMenu li {
-    padding: 15px;
-    display: inline-block;
+@media screen and (max-width: 600px), screen and (orientation: portrait) {
+  #mainMenu li a {
+    padding: 15px !important;
   }
 
   #mainMenu ul {
-    font-size: 1rem;
+    font-size: .9rem;
+  }
+
+  #mainMenu li {
+    padding: 15px 25px;
   }
 }
 
