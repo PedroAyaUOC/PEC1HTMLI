@@ -32,6 +32,11 @@ body{
     main{
         width: 95% !important;
     }
+
+    .container50{
+        width: 90%;
+        margin: auto;
+    }
 }
 
 a{text-decoration: none;
