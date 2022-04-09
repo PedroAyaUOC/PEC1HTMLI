@@ -6041,17 +6041,10 @@ header {
   }
 }
 
-@media screen and (orientation: portrait) {
-  #logo {
-    margin-bottom: 20px !important;
-    font-size: 8rem !important;
-  }
-}
-
 #logo {
   text-align: center;
   margin: 10px 0 25px;
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 800;
 }
 
@@ -6081,16 +6074,14 @@ header {
   background-color: #7cbb00;
 }
 
-@media screen and (max-width: 600px), screen and (orientation: portrait) {
-  #mainMenu ul {
-    font-size: 2rem !important;
-  }
-}
-
 @media screen and (min-width: 600px) and (orientation: landscape) {
   #mainMenu li {
-    padding: 20px 25px;
+    padding: 15px;
     display: inline-block;
+  }
+
+  #mainMenu ul {
+    font-size: 1rem;
   }
 }
 
@@ -6203,6 +6194,11 @@ footer li a {
   text-decoration: none;
 }
 
+iframe {
+  height: 315px;
+  width: 560px;
+}
+
 @media screen and (max-width: 600px), screen and (orientation: portrait) {
   footer {
     text-align: center;
@@ -6213,12 +6209,17 @@ footer li a {
   }
 
   footer .container {
-    width: 65% !important;
+    width: 80% !important;
   }
 
   footer p, footer ul {
     margin-bottom: 20px;
-    font-size: .9rem;
+    font-size: .7rem;
+  }
+
+  iframe {
+    height: 315px;
+    width: 100%;
   }
 }
 
