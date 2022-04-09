@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,800;1,400&display=swap");
-/*@import url('../../node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css');*/
+@import "npm:../../@fortawesome/fontawesome-free/css/fontawesome.min.css";
+/*Nota: no se porqué, pero me falla la importación de iconos, por lo que tengo que cargarlos por cdn*/
+
 
 /**** GLOBAL ****/
 
