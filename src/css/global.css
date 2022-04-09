@@ -69,11 +69,6 @@ header{
 	padding: 15px 0 0 0;
 }
 
-@media screen and (max-width: 600px), screen and (orientation: portrait){
-	header{text-align: center;}
-    
-}
-
 
 #logo {
 	font-weight: 800;
@@ -97,7 +92,7 @@ header{
 #mainMenu ul{
 	list-style: none;
 	font-weight: bold;
-	font-size: 1.1rem; 
+	font-size: 1rem; 
 	margin: 0;
     padding: 0;
 }
@@ -110,10 +105,19 @@ header{
 	background-color: #7cbb00;
 }
 
+@media screen and (min-width: 600px) and (orientation: landscape){
+	#mainMenu li{
+		display: inline-block; 
+		padding: 20px 15px !important; 
+	}
+}
+
 
 
 @media screen and (max-width: 600px), screen and (orientation: portrait){
-	#mainMenu li a{
+	header{text-align: center;}
+    
+    #mainMenu li a{
         padding: 15px 15px !important; 
     }
 

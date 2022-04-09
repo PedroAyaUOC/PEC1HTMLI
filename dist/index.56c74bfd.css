@@ -6001,6 +6001,11 @@ body {
   main {
     width: 95% !important;
   }
+
+  .container50 {
+    width: 90%;
+    margin: auto;
+  }
 }
 
 a {
@@ -6035,12 +6040,6 @@ header {
   box-shadow: 0 3px 3px #00000003;
 }
 
-@media screen and (max-width: 600px), screen and (orientation: portrait) {
-  header {
-    text-align: center;
-  }
-}
-
 #logo {
   text-align: center;
   margin: 10px 0 25px;
@@ -6061,7 +6060,7 @@ header {
 #mainMenu ul {
   margin: 0;
   padding: 0;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 700;
   list-style: none;
 }
@@ -6074,7 +6073,18 @@ header {
   background-color: #7cbb00;
 }
 
+@media screen and (min-width: 600px) and (orientation: landscape) {
+  #mainMenu li {
+    display: inline-block;
+    padding: 20px 15px !important;
+  }
+}
+
 @media screen and (max-width: 600px), screen and (orientation: portrait) {
+  header {
+    text-align: center;
+  }
+
   #mainMenu li a {
     padding: 15px !important;
   }
