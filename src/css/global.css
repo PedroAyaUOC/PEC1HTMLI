@@ -108,11 +108,15 @@ header{
 @media screen and (min-width: 600px) and (orientation: landscape){
 	#mainMenu li{
 		display: inline-block; 
-		padding: 15px 15px; 
+		padding: 10px 15px !important; 
 	}
 
+    #mainMenu li a{
+        padding: 10px 15px !important; 
+    }
+
     #mainMenu ul{
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 }
 
